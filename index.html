@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accueil | Blog de Nathan</title>
+    <link rel="icon" type="image/png" href="images/favicon.svg" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <button
+      class="menu"
+      onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
+      aria-label="Main Menu"
+    >
+      <svg width="70" height="70" viewBox="0 0 100 100">
+        <path
+          class="line line1"
+          d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"
+        />
+        <path class="line line2" d="M 20,50 H 80" />
+        <path
+          class="line line3"
+          d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"
+        />
+      </svg>
+    </button>
+
+    <div id="yellowPage">
+      <ul>
+        <li>
+          <a
+            href="index.html"
+            style="text-decoration: underline; text-decoration-thickness: 2px"
+            >Accueil</a
+          >
+        </li>
+        <li><a href="pages/resumes.html">Résumés</a></li>
+        <li><a href="pages/systemeEcoute.html">Système d'écoute</a></li>
+        <li><a href="pages/experimentation.html">Expérimentation</a></li>
+        <li><a href="pages/about.html">A propos</a></li>
+      </ul>
+    </div>
+    <div id="brouillon"></div>
+
+    <div id="remonter"><a href="#conteneur"><img src="images/fleche.png" alt="Remonter la page"></a></div>
+    <div id="conteneur">
+      <div id="explication">
+        <h1>Explications</h1>
+        <p>
+          Lors du cours "LabVeilTec", il nous a été demandé de réaliser un blog
+          répertoriant des articles sur la veille que nous avons créée. Mon
+          sujet était "Infographiste". Sur ce site, vous pourrez retrouver les
+          moyens que j'ai utilisé pour réaliser cette veille et plus
+          d'informations sur mon Ikigaï.
+        </p>
+        <br />
+        <p>
+          J'ai choisi de réalisé mon site en HTML/CSS contrairement à une
+          majorité de la classe M50-1 pour mettre en pratique mes compétences de
+          designer et pour me remettre en mémoire les diverses fonctionnalité
+          CSS disponibles.
+        </p>
+        <br />
+        <p>
+          Evidemment il s'agit d'un simple site, le design n'est pas abouti à
+          100%. Je suis resté sur quelque chose de sobre avec des couleurs qui
+          changent de l'ordinaire bleu et blanc.
+        </p>
+        <img src="images/logo.svg" alt="" title="Logo du blog" />
+      </div>
+      <a
+        href="https://www.google.com/search?sca_esv=fe0d19291777c631&rlz=1C1YTUH_frCH1056CH1056&q=explication&tbm=isch&source=lnms&sa=X&ved=2ahUKEwijrqeWlfmDAxUngv0HHfrmASAQ0pQJegQIDRAB&biw=1718&bih=1269&dpr=1#imgrc=nPOzimWMVywc2M"
+        target="_blank"
+        title="Vers la source"
+        ><div id="explicationImg"></div
+      ></a>
+    </div>
+
+    <script src="js/utils.js"></script>
+  </body>
+</html>

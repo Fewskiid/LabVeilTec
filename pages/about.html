@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A propos | Blog de Nathan</title>
+    <link rel="icon" type="image/png" href="../images/favicon.svg" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <button
+      class="menu"
+      onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
+      aria-label="Main Menu"
+    >
+      <svg width="70" height="70" viewBox="0 0 100 100">
+        <path
+          class="line line1"
+          d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"
+        />
+        <path class="line line2" d="M 20,50 H 80" />
+        <path
+          class="line line3"
+          d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"
+        />
+      </svg>
+    </button>
+
+    <div id="yellowPage">
+      <ul>
+        <li><a href="../index.html">Accueil</a></li>
+        <li><a href="resumes.html">Résumés</a></li>
+        <li><a href="systemeEcoute.html">Système d'écoute</a></li>
+        <li><a href="experimentation.html">Expérimentation</a></li>
+        <li>
+          <a
+            href="about.html"
+            style="text-decoration: underline; text-decoration-thickness: 2px"
+            >A propos</a
+          >
+        </li>
+      </ul>
+    </div>
+    <div id="brouillon"></div>
+    <div id="remonter"><a href="#conteneur"><img src="../images/fleche.png" alt="Remonter la page"></a></div>
+
+    <div id="conteneur">
+      <div id="about">
+        <div id="profil"><a href="../images/photoLowBlack.png"><img src="../images/photoLowBlack.png" alt="Moi, Nathan Gretillat" title="Agrandir l'image"></a></div>
+        <h1>Moi c'est Nathan Gretillat !</h1>
+        <p>
+          Je suis un jeune étudiant de 22 ans en 3ème année d'ingénierie des
+          médias à la HEIG-VD et j'habite dans le canton de Neuchâtel. Dans le
+          cadre de mon CFC de médiamaticien j'ai déjà pu expérimenter la
+          maintenance de site Web et la création de médias pour des événements
+          concrets. J'ai un parcours très polyvalent ce qui fait que je m'adapte
+          à tous types d'environnements et j'essaye tous les jours de
+          m'améliorer que ce soit dans ma vie professionnelle ou personnelle.
+          Mes intérêts pour l'avenir se trouvent dans le design UI/UX,
+          l'infographie, le marketing et la communication.
+        </p>
+        <br />
+        <h2>Le domaine de l'infographie</h2>
+        <p>
+          Ce métier combine création graphique et développement
+          informatique. Il est également lié aux arts graphiques.
+          Je l'ai choisi parce que j’aime mélanger ma passion pour les ordinateurs et mon intérêt pour le design et la mise en page !
+          <a href="../images/LabVeilTec_Ikigai.png"><img src="../images/LabVeilTec_Ikigai.png" alt="Ikigai représentant le métier de rêve de Nathan Gretillat" title="Agrandir l'image"></a>
+          1. Ikigaï réalisé pour définir mon métier de rêve
+        </p><br>
+        <h2>Taxonomie</h2>
+        <h3>Mots-clés</h3>
+        <p>
+          Afin de mieux comprendre ce métier, j'ai utilisé une méthode de classification sous forme de mots-clés pour faire mes recherches sur le métier d'infographiste. Voici quelques mots-clés qui lui
+          sont associés :
+          <ul>
+            <li>Maquette</li>
+            <li>Mise en page</li>
+            <li>Zoning</li>
+            <li>Texte</li>
+            <li>Création</li>
+            <li>Design</li>
+            <li>Texture</li>
+          </ul>
+          <br> J'ai également choisi de catégoriser les sources de mes recherches de veille en 5 groupes :
+          <ul>
+            <li>Réseaux/blogs</li>
+            <li>Article</li>
+            <li>Podcast</li>
+            <li>Evénements</li>
+            <li>Tutoriel</li>
+          </ul>
+        </p><br>
+        <h3>Sous-domaines</h3>
+        <p>
+          Et finalement, les jobs corrélés à mon IkigaÏ sont les suivants :
+          <ul>
+            <li>Graphiste</li>
+            <li>Scénariste</li>
+            <li>Modélisateur 3D</li>
+            <li>Game designer</li>
+            <li>Développeur informatique</li>
+            <li>Designer UX/UI</li>
+          </ul>
+        </p>
+        <img src="../images/logo.svg" alt="" title="Logo du blog"/>
+      </div>
+    </div>
+
+    <script src="../js/utils.js"></script>
+  </body>
+</html>

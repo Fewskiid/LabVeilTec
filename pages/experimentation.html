@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expérimentation | Blog de Nathan</title>
+    <link rel="icon" type="image/png" href="../images/favicon.svg" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <button
+      class="menu"
+      onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))"
+      aria-label="Main Menu"
+    >
+      <svg width="70" height="70" viewBox="0 0 100 100">
+        <path
+          class="line line1"
+          d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"
+        />
+        <path class="line line2" d="M 20,50 H 80" />
+        <path
+          class="line line3"
+          d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"
+        />
+      </svg>
+    </button>
+
+    <div id="yellowPage">
+      <ul>
+        <li><a href="../index.html">Accueil</a></li>
+        <li><a href="resumes.html">Résumés</a></li>
+        <li><a href="systemeEcoute.html">Système d'écoute</a></li>
+        <li>
+          <a
+            href="experimentation.html"
+            style="text-decoration: underline; text-decoration-thickness: 2px"
+            >Expérimentation</a
+          >
+        </li>
+        <li><a href="about.html">A propos</a></li>
+      </ul>
+    </div>
+    <div id="brouillon"></div>
+    <div id="remonter"><a href="#conteneur"><img src="../images/fleche.png" alt="Remonter la page"></a></div>
+
+    <div id="conteneur">
+      <div id="experimentation">
+        <h1>Expérimentation réalisée</h1>
+        <p>
+          Comme je suis un petit malin, j'ai profité du fait de créer mon propre
+          site statique pour réaliser mon expérimentation. J'ai donc utilisé le
+          CSS pour mettre en page mon site web. <br /><br />
+        </p>
+        <h2>Menu hamburger</h2>
+        <p>
+          Pour le menu hamburger, j'ai utilisé le CodePen de Mikael Ainalem et
+          je l'ai modifié à ma guise. J'ai adopté une technique un peu barbare
+          consistant à utiliser du JavaScript pour que quand un utilisateur
+          clique sur le menu, un div passe de "display : none" à "display :
+          block" pour afficher les liens cliquables. (À voir sur le menu
+          hamburger en-haut à gauche de la page)<br />
+          <a href="https://codepen.io/ainalem/pen/wvKOEMV" target="_blank"
+            ><img
+              src="../images/menuHamburger.png"
+              alt="Menu hamburger de Mikael Ainalem"
+              title="Vers la source"
+            />En savoir plus...</a
+          ><br /><br />
+        </p>
+        <h2>Mise en page d'un site statique</h2>
+        <p>
+          A l'aide du blog "CoderChamp", j'ai revu les propriétés des div, h1,
+          p, img, arrière plan, border, etc. et j'ai pu réaliser la mise en page
+          de ce simple site statique. J'ai décidé de rester sur quelque chose de
+          sobre avec des couleurs qui changent de l'ordinaire bleu et blanc.<br />
+          <a
+            href="https://www.coderchamp.com/fr/blogs/coder-champ/the-ultimate-guide-to-css"
+            target="_blank"
+            >LE GUIDE ULTIME DU CSS 2023</a
+          >
+        </p>
+        <img src="../images/logo.svg" alt="" title="Logo du blog" />
+      </div>
+      <a
+        href="https://www.google.com/search?q=design&tbm=isch&ved=2ahUKEwi46KbokPmDAxUjg_0HHWlFD2EQ2-cCegQIABAA&oq=design&gs_lcp=CgNpbWcQAzIFCAAQgAQyBggAEAcQHjIGCAAQBxAeMgYIABAHEB4yBAgAEB4yBAgAEB4yBAgAEB4yBggAEAgQHjIGCAAQCBAeMgYIABAIEB5QuwZYuwZghgdoAHAAeACAAecBiAHnAZIBAzItMZgBAKABAaoBC2d3cy13aXotaW1nwAEB&sclient=img&ei=WaOyZfjXM6OG9u8P6Yq9iAY&bih=1269&biw=1718&rlz=1C1YTUH_frCH1056CH1056#imgrc=tcmopXVO8FeZdM"
+        target="_blank"
+        title="Vers la source"
+        ><div id="experimentationImg"></div
+      ></a>
+
+      <div id="conclusion">
+        <h1>Conclusion</h1>
+        Ayant un passif de médiamaticien, j'ai déjà eu l'occasion de faire de
+        l'HTML/CSS durant mes études mais malheureusement je n'ai pas eu
+        beaucoup l'occasion de réaliser des projets CSS lors de mon bachelor.
+        J'ai perdu la main à force de non pratique et lors de ce cours j'ai
+        saisi l'occasion de me remémorer mes connaissances dans le but de les
+        ancrées à nouveau. <br />
+        <br />
+        J'ai également pu profiter de cette expérimentation et de ce cours pour
+        trouver des sources (en l'occurence un blog) afin de rester à jour et ne
+        plus me retrouver dans la fâcheuse situation où je dois repartir de
+        zéro. <br /><br />
+        Vous l'aurez compris, cette source me permettra de maintenir mes
+        connaissances et ajouter cette compétence à mon CV pour me vendre auprès
+        des entreprises qui recherchent des infographistes.
+      </div>
+    </div>
+
+    <script src="../js/utils.js"></script>
+  </body>
+</html>
